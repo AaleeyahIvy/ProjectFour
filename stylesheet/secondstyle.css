@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(25, 90, 121);
+}
+nav li {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding: 14px;
+  font-size: 17px;
+  border-radius: 50px;
+}
+nav li:hover {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+body {
+  background-color: rgb(76, 121, 160);
+  font-family: "Dela Gothic One", cursive;
+  color: rgb(54, 44, 44);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  border-left-style: solid;
+  padding: 10px;
+  background-color: rgb(53, 106, 153);
+}
+p1 {
+  font-family: "Montserrat", sans-serif;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(54, 44, 44);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(20, 7, 7);
+}
+section {
+  float: left;
+}
+.col-3 {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  left: 50px;
+  background-color: rgb(165, 187, 190);
+  border-radius: 5px;
+}
+h1 {
+  font-size: medium;
+}
+#newsletter {
+  background-color: rgb(165, 187, 190);
+  margin-left: 10px;
+}
+input[type="submit"] {
+  border-style: none;
+  border-radius: 25px;
+}
+input[type="text"] {
+  border-radius: 25px;
+  border-style: none;
+}
+#imga,
+#imgb,
+#imgc {
+  padding: 25px;
+  margin: 25px;
+  background-color: rgb(165, 187, 190);
+  border-radius: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#imgd {
+  width: 100%;
+  height: auto;
+}
